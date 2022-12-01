@@ -7,6 +7,7 @@ const port = process.env.PORT || 5000;
 
 // middle ware
 app.use(cors());
+// for handle post api middle ware
 app.use(express.json());
 
 // mongoDB client connection
@@ -20,6 +21,8 @@ const client = new MongoClient(uri, {
 async function run() {
   try {
     const serviceCollection = client.db("oldStore").collection("products");
+    const orderCollection = client.db("oldStore").collection("orders");
+    const userCollection = client.db("oldStore").collection("users");
 
     app.get("/products", async (req, res) => {
       const query = {};
@@ -41,6 +44,19 @@ async function run() {
       const query = { category_id: id };
       const service = await serviceCollection.find(query).toArray();
       res.send(service);
+    });
+
+    app.post("/orders", async (req, res) => {
+      const order = req.body;
+      const result = await orderCollection.insertOne(order);
+      res.send(result);
+    });
+
+    // users collection api
+    app.post("/users", async (req, res) => {
+      const user = req.body;
+      const result = await userCollection.insertOne(user);
+      res.send(result);
     });
   } finally {
     // nothing to do here
