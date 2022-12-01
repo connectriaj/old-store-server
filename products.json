@@ -1,7 +1,7 @@
 [
   {
     "category_id": "3",
-    "image": "https://images.unsplash.com/photo-1622534138722-895a7deb9f49?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
+    "image": "https://images.unsplash.com/photo-1588058365548-9efe5acb8077?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     "title": "Oppo Reno 8",
     "location": "Gulshan,Dhaka",
     "resale_price": "15000",
@@ -33,7 +33,7 @@
   },
   {
     "category_id": "2",
-    "image": "https://images.unsplash.com/photo-1581003989563-eb4737da70b9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80",
+    "image": "https://images.unsplash.com/photo-1588058365548-9efe5acb8077?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     "title": "Samsung Galaxy Prime 5",
     "location": "Saidpur,Nilphamari",
     "resale_price": "18000",
@@ -49,7 +49,7 @@
   },
   {
     "category_id": "1",
-    "image": "https://images.unsplash.com/photo-1642779453432-060382fc3b00?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1333&q=80",
+    "image": "https://images.unsplash.com/photo-1421757350652-9f65a35effc7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80",
     "title": "iphone 6",
     "location": "Mirpur,Dhaka",
     "resale_price": "10000",
@@ -65,7 +65,7 @@
   },
   {
     "category_id": "1",
-    "image": "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    "image": "https://images.unsplash.com/photo-1586953208448-b95a79798f07?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     "title": "iphone x",
     "location": "Motijhil,Dhaka",
     "resale_price": "40000",

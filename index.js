@@ -17,6 +17,23 @@ const client = new MongoClient(uri, {
   serverApi: ServerApiVersion.v1,
 });
 
+async function run() {
+  try {
+    const serviceCollection = client.db("oldStore").collection("products");
+
+    app.get("/products", async (req, res) => {
+      const query = {};
+      const cursor = serviceCollection.find(query);
+      const products = await cursor.toArray();
+      res.send(products);
+    });
+  } finally {
+    // nothing to do here
+  }
+}
+
+run().catch((err) => console.error(err));
+
 app.get("/", (req, res) => {
   res.send("Old Store server is running");
 });
