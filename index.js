@@ -52,12 +52,22 @@ async function run() {
       res.send(result);
     });
 
+    app.get("/orders", async (req, res) => {
+      const email = req.query.email;
+      const query = { email: email };
+      const orders = await orderCollection.find(query).toArray();
+      res.send(orders);
+    });
+
     // users collection api
     app.post("/users", async (req, res) => {
       const user = req.body;
       const result = await userCollection.insertOne(user);
       res.send(result);
     });
+      
+      
+      
   } finally {
     // nothing to do here
   }
